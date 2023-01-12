@@ -6,13 +6,13 @@ const dummyProduct = [
     id: 1,
     price: 24,
     title: 'book',
-    description: 'friction book'
+    description: 'friction book',
   },
   {
     id: 2,
     price: 5,
     title: 'pen',
-    description: 'ball pen with refill'
+    description: 'ball pen with refill',
   }
 
 ]
@@ -25,6 +25,7 @@ const Products = (props) => {
         {dummyProduct.map(product =>(
             <ProductItem
             key={product.id}
+            id={product.id}
             title={product.title}
             price={product.price}
             description={product.description}

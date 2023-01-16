@@ -1,7 +1,7 @@
 {
   "name": "react-complete-guide",
   "version": "0.1.0",
-  "homepage": "https://vishal101022.github.io/redux-cart",
+  "homepage": "https://vishal101022.github.io/Redux-Cart/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
